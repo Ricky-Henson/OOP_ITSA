@@ -51,7 +51,7 @@ int main()
     for(int i=0; i<structSize; i++){
         for(int j=0; j<products[i].prices.size(); j++){
         }
-        minSum+=(*max_element(products[i].prices.begin(), products[i].prices.end())); // max min edit here
+        minSum+=(*max_element(products[i].prices.begin(), products[i].prices.end()));
     }
     cout << minSum << endl;
 
